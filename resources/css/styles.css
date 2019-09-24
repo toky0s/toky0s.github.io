@@ -1,0 +1,463 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #ffffff;
+    color: #5a5a5a;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    overflow-x: hidden;
+}
+/* -------------------------------------- */
+/* ---------RESUSABLE COMPORNENT--------- */
+/* -------------------------------------- */
+.button {
+    text-decoration: none;
+    color: white;
+    background-color: #e67e22;
+    padding: 15px 30px;
+    border-radius: 15px;
+    margin: 0 5px;
+    width: 190px;
+    display: inline-block;
+    text-align: center;
+    transition: all .3s;
+}
+
+.button:hover,
+.button:active {
+    background-color: #d35400;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+h1, h2, h3 {
+    text-transform: uppercase;
+        letter-spacing: 1px;
+}
+h1 {
+    font-size: 300%;
+    font-weight: 400;
+    word-spacing: 5px;
+    color: white;
+    line-height: 135%;
+    margin-bottom: 50px;
+}
+
+h2 {
+    color: #e67e22;
+    font-size: 180%;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2::after{
+    content: " ";
+    display: block;
+    width: 150px;
+    height: 3px;
+    background-color: rgba(230, 126, 34, 0.5);
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+h3 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #265077;
+    color: white;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.p-long{
+    text-align: center;
+    color: #265077;
+    font-size: 22px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 70%;
+    margin-left: 15%;
+    line-height: 140%;
+}
+
+.small-icon{
+    color: #286299a1;
+    font-size: 150%;
+    margin-right: 10px;
+}
+
+section{
+    padding: 50px;
+}
+/* -------------------------------------- */
+/* ----------------HEADER---------------- */
+/* -------------------------------------- */
+
+header {
+    background-image: linear-gradient(45deg, rgba(2, 33, 64, 0.8), rgba(45, 95, 93, 0.8)), url("../img/team33.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100 vh;
+    background-attachment: fixed;
+}
+
+.logo {
+    float: left;
+    width: 150px;
+    padding-bottom: 480px;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 50px;
+    margin-right: 55px;
+}
+
+.main-nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 110%;
+    font-weight: 700;
+    transition: border-bottom 0.1s;
+    padding: 3px 0;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #cccccc
+}
+
+.row {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.heading-main-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1300px;
+}
+
+/* -------------------------------------- */
+/* ----------------SEctION--------------- */
+/* -------------------------------------- */
+.about-picture {
+    position: relative;
+    margin-top: 50px;
+}
+
+.about-picture img{
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: -15px 15px 15px 5px rgba(74, 73, 77, 0.233);
+    /* filter: brightness(50%) blur(2px); */
+    transition: all .5s;
+}
+
+.picture-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #c2e1fd;
+    transform: translate(-65%,100%);
+    opacity: 0;
+        transition: all .5s;
+}
+
+.about-picture:hover img,
+.about-picture:active img{
+        filter: brightness(50%) blur(2px);
+}
+
+.about-picture:hover .picture-title,
+.about-picture:active .picture-title{
+    transform: translate(-65%,-50%);
+    opacity: 1;
+}
+
+/* -------------------------------------- */
+/* ----------------Tieu dung--------------- */
+/* -------------------------------------- */
+
+.product-section {
+    background-color: #f4f4f4;
+}
+
+.product-section h2 {
+    margin-bottom: 60px;
+}
+
+.product-box {
+    background-color: #eeefff;
+    width: 90%;
+    height: 350px;
+    box-shadow: 3px 5px 10px #e0e0e0;
+}
+
+.product-price {
+    color: #265077;
+    font-size: 250%;
+    font-weight: 300;
+    text-align: center;
+}
+
+.product-price span{
+    font-size: 80%;
+}
+
+.product-box ul li{
+    margin-left: 20%;
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.product-box .button{
+    margin-left: 20%;
+}
+
+/* -------------------------------------- */
+/* ----------------Testomonial section--- */
+/* -------------------------------------- */
+
+.testimonial-section {
+    background-image: linear-gradient(45deg, rgba(2, 33, 64, 0.8), rgba(45, 95, 93, 0.8)), url('../img/background2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.testimonial-section h2 {
+    margin-bottom: 70px;
+
+}
+
+blockquote {
+    width: 95%;
+    position: relative;
+    font-style: italic;
+    font-size: 140%;
+    color: white;
+}
+
+blockquote::before{
+    content: '\201C';
+    display: block;
+    font-size: 400%;
+    position: absolute;
+    top: -65px;
+    left: -20px;
+}
+
+cite {
+    display: block;
+    color: rgba(98, 162, 245, 1);
+    margin-top: 5px;
+}
+
+cite img{
+    height: 75px;
+    border-radius: 50%;
+    border: 2px solid #265077;
+    vertical-align: middle;
+    margin-right: 5px;
+
+}
+
+/* -------------------------------------- */
+/* ----------------Taitro---------------- */
+/* -------------------------------------- */
+
+.sponsors-section{
+    background-color: #f4f4f4;
+}
+
+.sponsors-section h2{
+margin-bottom: 50px;
+}
+
+.sponsors-showcase{
+margin-left: 8%;
+}
+
+.sponsors-showcase li{
+    list-style: none;
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sponsors-showcase img {
+    margin-bottom: 2px;
+}
+
+.logo-sponsor{
+width: 140px;
+border-radius: 50%;
+cursor: pointer;
+transition: all .3s;
+}
+
+.sponsors-showcase li .logo-sponsor:hover,
+.sponsors-showcase li .logo-sponsor:active{
+    transform: scale(1.3);
+}
+
+figcaption {
+    color: #265077;
+    font-weight: 700;
+    font-size: 120%;
+    cursor: pointer;
+}
+
+/* -------------------------------------- */
+/* ----------------contactform----------- */
+/* -------------------------------------- */
+
+.contact-section {
+    background-image: linear-gradient(45deg, rgba(2, 33, 64, 0.8), rgba(45, 95, 93, 0.8)), url("../img/contact-background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font: 90%
+}
+
+/* -------------------------------------- */
+/* ----------------footer---------------- */
+/* -------------------------------------- */
+
+footer {
+    text-align: center;
+    background-color: #383737;
+    color: white;
+    padding: 20px;
+}
+
+.infomation {
+    list-style: none;
+    color: white;
+    line-height: 200%;
+    word-spacing: 1px;
+    font-size: 95%;
+}
+
+.infomation i{
+    color: #3a79b4
+
+}
+
+.infomation .small-icon:hover,
+.infomation .small-icon:active{
+    transform: scale(1.3);
+}
+
+.social-icon{
+    list-style: none;
+    margin-top: 50px;
+}
+
+.social-icon li{
+    display: inline-block;
+    font-size: 250%;
+    margin-left: 20px;
+    color: white;
+}
+
+.social-icon li i:hover,
+.social-icon li i:active{
+    transition: all .3s;
+    cursor: pointer;
+}
+.social-icon li i:hover,
+.social-icon li i:active{
+    transform: scale(1.2);
+    color: #d35400;
+}
+
+/* -------------------------------------- */
+/* ----------------form---------------- */
+/* -------------------------------------- */
+
+form{
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-left: 40%;
+    width: 60%;
+    padding: 20px;
+    margin-bottom: 35px;
+}
+
+form .row{
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 150%;
+    color: white;
+}
+
+ input, textarea{
+    outline: none;
+    padding: 10px;
+    background-color: rgba(63, 60, 60, 0.4);
+    border: 1px solid rgba(73, 69, 69, 0.4);
+    margin-left: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+textarea{
+    resize: none;
+    height: 100px;
+}
+
+input{
+    height: 50px;
+}
+
+input[type=text], input[type=email], textarea{
+    width: 75%;
+    font-size: 100%;
+    transition: all .3s;
+}
+
+input[type=text]:focus, input[type=email]:focus, textarea:focus{
+    color: #cccccc;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+form .row:last-child{
+    text-align: center;
+}
+
+input[type=submit]{
+    font-weight: 700;
+    font-size: 100%;
+    border-radius: 5px;
+    width: 70%;
+}
