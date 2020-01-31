@@ -5,6 +5,20 @@
     border: 0;
 }
 
+
+/* ==============  all  ==================== */
+
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.img-container {
+    text-align: center;
+    padding: 100px auto;
+}
+
+
 ol,ul {
     list-style: none;
     margin-bottom: 0;
@@ -13,6 +27,13 @@ ol,ul {
 ul li p {
     margin-bottom: 0;
 }
+
+.container {
+    padding: 0;
+    margin: 0;
+}
+
+/* header==================================== */
 
 header {
     background-image: linear-gradient(141deg, #9fb8ad 0%, #3bcbdb5b 51%, #2fbcf075 75%) ,url('../img/bg-prof-img.jpg');
@@ -57,20 +78,95 @@ header {
     border-radius: 30px;
     margin: 0 auto !important;
     transform: translateY(60px);
+    padding-top: 1px;
 }
 
 .profile-name h1 {
     color: white;
 }
 
+/* section ================================= */
+
 section {
-    padding: 35px 20px;
+    padding: 35px 50px;
     background-color: rgb(240, 233, 233);
 }
 
+.main {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.main-title {
+    padding-top: 20px;
+    text-align: center;
+}
+
 .card {
-    margin-top: 15px;
-    padding: 10px 15px;
+    margin-bottom: 20px !important;
+    padding: 20px 30px;
     box-shadow: rgb(214, 209, 209) 10px 10px 10px; 
 }
 
+/* section story============================ */
+
+.story-line i {
+    width: 30px;
+    text-align: center;
+}
+
+
+.skill .card {
+    border: none;
+    color: white;
+    font-size: 1.25em;
+    padding: 20px 20px;
+}
+
+.skill .skill-python {
+    background-image: linear-gradient(to bottom,#2890b6,#1edbf0);
+}
+
+.skill img {
+    width: 80%;
+    vertical-align: middle;
+    height: auto;
+    display: inline-block;
+}
+
+.skill .content {
+    margin-left: 20px;
+}
+
+.skill .content-title {
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.skill .content-main {
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+    background: white;
+    padding: 10px 36px;
+    border-radius: 30px;
+    font-size: 90%;
+    margin-bottom: 25px;
+}
+
+.button:active,
+.button:hover {
+    text-decoration: none;
+    color: initial;
+}
+
+.skill .skill-github {
+    background-image: linear-gradient(to bottom,#420909bb,#1c292bc7);
+}
+
+.skill-github p {
+    margin-bottom: 0rem;
+}
