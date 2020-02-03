@@ -95,6 +95,7 @@ section {
 .main {
     width: 95%;
     margin: 0 auto;
+    display: flexbox;
 }
 
 .main-title {
@@ -148,20 +149,6 @@ section {
     margin-bottom: 30px;
 }
 
-.button {
-    display: inline-block;
-    background: white;
-    padding: 10px 36px;
-    border-radius: 30px;
-    font-size: 90%;
-    margin-bottom: 25px;
-}
-
-.button:active,
-.button:hover {
-    text-decoration: none;
-    color: initial;
-}
 
 .skill .skill-github {
     background-image: linear-gradient(to bottom,#420909bb,#1c292bc7);
@@ -169,4 +156,8 @@ section {
 
 .skill-github p {
     margin-bottom: 0rem;
+}
+
+.skill-other {
+    background-image: linear-gradient(to bottom, #1dd1a1, #10ac84);
 }
