@@ -1,0 +1,93 @@
+.cta-button {
+    display: inline-block;
+    background: white;
+    padding: 8px 30px;
+    border-radius: 5px;
+    font-size: 90%;
+    margin-bottom: 25px;
+    color: initial;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.cta-button:hover {
+    text-decoration: none;
+    color: initial;
+    transform: scale(1.15);
+}
+
+.cta-button:active {
+    transform: scale(1.07);
+}
+
+.title-1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1000%;
+}
+
+/* note============================== */
+.note-paper {
+    display: inline-block;
+    width: 300px;
+    margin-bottom: 15px;
+    margin-left: 11px;
+}
+
+.note-paper .header-note{
+    width: 100%;
+    height: 38px;
+}
+
+.note-paper .body-note {
+    padding: 20px 15px 45px;
+}
+
+.note-paper .title-note {
+    display: inline;
+    font-family: 'Amatic SC', cursive;
+    font-size: 170%;
+    font-weight: bold;
+}
+
+.note-paper .content-note {
+    font-family: 'Mali', cursive;
+    /* font-size: 150%; */
+}
+
+/* note-color */
+
+.yellow-note .header-note {
+    background-color: #f39c12;
+}
+
+.yellow-note .body-note {
+    background-color: #f1c40f;
+}
+
+
+.green-note .header-note {
+    background-color: #00b894;
+}
+
+.green-note .body-note {
+    background-color: #55efc4;
+}
+
+
+.pink-note .header-note {
+    background-color: #e84393;
+}
+
+.pink-note .body-note {
+    background-color: #fd79a8;
+}
+
+
+.blue-note .header-note {
+    background-color: #0984e3;
+}
+
+.blue-note .body-note {
+    background-color: #74b9ff;
+}
+
