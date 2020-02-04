@@ -95,11 +95,9 @@ section {
 .main {
     width: 95%;
     margin: 0 auto;
-    display: flexbox;
 }
 
 .main-title {
-    padding-top: 20px;
     text-align: center;
 }
 
@@ -111,9 +109,15 @@ section {
 
 /* section story============================ */
 
-.story-line i {
-    width: 30px;
-    text-align: center;
+.story {
+    background-color: #ffeaa7;
+}
+
+.story .main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 

@@ -29,7 +29,7 @@
 .note-paper {
     display: inline-block;
     width: 300px;
-    margin-bottom: 15px;
+    margin-top: 11px;
     margin-left: 11px;
 }
 
@@ -51,7 +51,6 @@
 
 .note-paper .content-note {
     font-family: 'Mali', cursive;
-    /* font-size: 150%; */
 }
 
 /* note-color */
