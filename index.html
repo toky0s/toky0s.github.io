@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script|Pacifico|Patrick+Hand&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Mali&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sacramento|Satisfy&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="resources/css/widgets.css">
     <link rel="stylesheet" href="resources/css/colors.css">
     <link rel="stylesheet" href="resources/css/styles.css">
@@ -19,7 +20,7 @@
 
 <body>
     <header>
-        <nav class="nav navbar-expand-sm">
+        <nav class="nav navbar-expand-sm bg-mangeta-purple">
             <a class="nav-link" href="#">Story</a>
             <a class="nav-link" href="#">Skill</a>
             <a class="nav-link" href="#">Contact</a>
@@ -35,7 +36,7 @@
             </div>
         </div>
     </header>
-    <section class="story">
+    <section class="story bg-casandora-yellow">
         <p class="main-title title-1">Story</p>
         <div class="main">
             <div class="note-paper yellow-note">
@@ -89,7 +90,7 @@
             </div>
         </div>
     </section>
-    <section class="skill">
+    <section class="skill bg-dark-mountain-meadow">
         <p class="main-title title-1">Skill</p>
         <div class="main">
             <div class="row">
@@ -128,28 +129,29 @@
         </div>
     </section>
 
-    <section class="contact">
+    <section class="contact bg-jigglypuff">
         <p class="main-title title-1">
             Contact
         </p>
         <div class="main">
             <div class="row">
                 <div class="col-sm">
-                    <a href="https://www.facebook.com/truongaxin">
+                    <a href="https://www.facebook.com/truongaxin" target="_blank">
                         <div class="img-container">
                             <img class="contact__social-image" src="resources/img/Facebook_Logo_(2019).png" alt="">
                         </div>
                     </a>
                 </div>
                 <div class="col-sm">
-                    <a href="https://truongaxin@gmail.com">
-                        <div class="img-container"><img class="contact__social-image"
-                                src="resources/img/66576-photos-icons-google-computer-gmail-png-image-high-quality.png"
-                                alt=""></div>
-                    </a>
+                    <div class="img-container"><img class="contact__social-image"
+                            src="resources/img/66576-photos-icons-google-computer-gmail-png-image-high-quality.png"
+                            alt=""></div>
+
+                    <p class="contact__gmail">truongaxin123@gmail.com</p>
+
                 </div>
                 <div class="col-sm">
-                    <a href="https://www.facebook.com/truongaxin">
+                    <a href="https://www.facebook.com/truongaxin" target="_blank">
                         <div class="img-container"><img class="contact__social-image"
                                 src="resources/img/Facebook-icon-1.png" title="Cũng là Facebook nhưng khác hình"></div>
                     </a>
@@ -157,22 +159,48 @@
             </div>
         </div>
     </section>
-    <section class="thanks">
+    <section class="thanks bg-jade-dust">
         <p class="main-title title-1">
             Thanks
         </p>
-        <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
-            href="https://unsplash.com/@yancymin?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
-            target="_blank" rel="noopener noreferrer"
-            title="Download free do whatever you want high-resolution photos from Yancy Min"><span
-                style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg"
-                    style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white"
-                    viewBox="0 0 32 32">
-                    <title>unsplash-logo</title>
-                    <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
-                </svg></span><span style="display:inline-block;padding:2px 3px">Yancy Min</span></a>
-
+        <div class="main">
+            <div class="row">
+                <div class="col-sm">
+                    <h4 class="thanks__main-title">Người đã tài trợ cho bức ảnh nền</h4>
+                    <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, 'San Francisco', 'Helvetica Neue', Helvetica, Ubuntu, Roboto, Noto, 'Segoe UI', Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
+                        href="https://unsplash.com/@yancymin?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+                        target="_blank" rel="noopener noreferrer"
+                        title="Download free do whatever you want high-resolution photos from Yancy Min"><span
+                            style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg"
+                                style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white"
+                                viewBox="0 0 32 32">
+                                <title>unsplash-logo</title>
+                                <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
+                            </svg></span><span style="display:inline-block;padding:2px 3px">Yancy Min</span></a>    
+                </div>
+                <div class="col-sm">
+                    <h4 class="thanks__main-title">Người truyền cảm hứng</h4>
+                    <div class="row">
+                        <div class="col-sm thanks__content-img">
+                            <a href="https://www.howkteam.com" target="_blank" rel="noopener noreferrer">
+                                <div class="img-container">
+                                    <img src="resources/img/kteam.png" alt="" srcset="" title="Một thế giới với những khóa học miễn phí">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm thanks__content-text">
+                            <p>Thật may mắn khi trên con đường lập trình của mỗi người có một cộng đồng đi cùng và sát cánh bên bạn nhưng lúc có bug. Anh Long, chị Quỳnh, anh Lê Bảo Châu, anh Minh Sự bên Kteam đã góp 1 phần nào đó tạo nên một Xin của ngày hôm nay. Cảm ơn các anh chị, toàn bộ team và cộng đồng.</p>
+                            <a href="https://www.facebook.com/groups/howkteam/" class="thanks__learn-more" target="_blank">Ghé thăm cộng đồng</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
     </section>
+    <footer>
+        truongaxin © 2020
+    </footer>
     <!-- say thank -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
