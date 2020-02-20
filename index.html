@@ -7,6 +7,7 @@
     <title>Mai Prồ Phai</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="resources/fontawesome-free-5.12.0-web/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script|Pacifico|Patrick+Hand&display=swap"
         rel="stylesheet">
@@ -36,157 +37,143 @@
     </header>
     <section class="story">
         <p class="main-title title-1">Story</p>
-            <div class="main">
-                <div class="note-paper yellow-note">
-                    <div class="header-note"></div>
-                    <div class="body-note">
-                        <div class="title-note">
-                            <p>Một chút thông tin</p>
-                        </div>
-                        <div class="content-note">
-                            <p>Sinh ngày: 15/11/2000 (hay bị nhầm là 20/10/2000).
-                                <br>
-                                Quê mình ở Bình Định.
-                                <br>
-                                Nhà mình nuôi heo, mẹ mình bán bún :)
-                            </p>
-                        </div>
+        <div class="main">
+            <div class="note-paper yellow-note">
+                <div class="header-note"></div>
+                <div class="body-note">
+                    <div class="title-note">
+                        <p>Một chút thông tin</p>
                     </div>
-                </div>
-                <div class="note-paper green-note">
-                    <div class="header-note"></div>
-                    <div class="body-note">
-                        <div class="title-note">
-                            <p>Vài nét về mình</p>
-                        </div>
-                        <div class="content-note">
-                            <p>
-                                Mình là một người đam mê lập trình. Bắt đầu với Python, mình đã thực hiện dịch tài
-                                liệu
-                                Python
-                                và tạo một vài tool nho nhỏ phục vụ công việc và cuộc sống. Hướng đi hiện tại của
-                                mình là
-                                thành
-                                một Back-end developer.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="note-paper pink-note">
-                    <div class="header-note"></div>
-                    <div class="body-note">
-                        <div class="title-note">
-                            <p>Hiện tại mình là ai?</p>
-                        </div>
-                        <div class="content-note">
-                            <p>
-                                Hiện tại mình là sinh viên năm 2 Đại học Duy Tân, Đà Nẵng và tất nhiên là ngành CNTT -
-                                Công nghệ phần mềm.
-                            </p>
-                        </div>
+                    <div class="content-note">
+                        <p>Sinh ngày: 15/11/2000 (hay bị nhầm là 20/10/2000).
+                            <br>
+                            Quê mình ở Bình Định.
+                            <br>
+                            Nhà mình nuôi heo, mẹ mình bán bún :)
+                        </p>
                     </div>
                 </div>
             </div>
+            <div class="note-paper green-note">
+                <div class="header-note"></div>
+                <div class="body-note">
+                    <div class="title-note">
+                        <p>Vài nét về mình</p>
+                    </div>
+                    <div class="content-note">
+                        <p>
+                            Mình là một người đam mê lập trình. Bắt đầu với Python, mình đã thực hiện dịch tài
+                            liệu
+                            Python
+                            và tạo một vài tool nho nhỏ phục vụ công việc và cuộc sống. Hướng đi hiện tại của
+                            mình là
+                            thành
+                            một Back-end developer.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="note-paper pink-note">
+                <div class="header-note"></div>
+                <div class="body-note">
+                    <div class="title-note">
+                        <p>Hiện tại mình là ai?</p>
+                    </div>
+                    <div class="content-note">
+                        <p>
+                            Hiện tại mình là sinh viên năm 2 Đại học Duy Tân, Đà Nẵng và tất nhiên là ngành CNTT -
+                            Công nghệ phần mềm.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <section class="skill">
+        <p class="main-title title-1">Skill</p>
         <div class="main">
-            <h1 class="main-title display-4">Skills</h1>
-            <div class="card skill-python">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8">
-                            <div class="content">
-                                <p class="content-title">
-                                    Python nè!
-                                </p>
-                                <div class="content-main">
-                                    <ul>
-                                        <li>
-                                            <p>Kiến thức cơ bản & hướng đối tượng Python</p>
-                                        </li>
-                                        <li>
-                                            <p>Các thư viện của Python như requests, bs4, tkinter,
-                                                selenium,...</p>
-                                        </li>
-                                        <li>
-                                            <p>Nhiều best of practice khác được mình tích lũy trong thời gian
-                                                làm
-                                                việc với Python.</p>
-                                        </li>
-                                    </ul>
-
-                                </div>
-                                <a class="cta-button" href="#">Xem thêm</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 img-container">
-                            <img src="resources/img/1024px-Python.svg.png" alt="python-logo">
-                        </div>
+            <div class="row">
+                <div class="col-sm img-container">
+                    <img class="skill__img" src="resources/img/logoPython.png" alt="">
+                    <p class="skill__mark">1/100</p>
+                    <div class="skill__content">
+                        <p>
+                            Mình bắt đầu khám phá lập trình từ năm lớp 10, và tự học Python từ năm lớp 11. Thật sự việc
+                            tự học đã cho mình nhiều kinh nghiệm quý báu cũng như rèn luyện cho mình nhiều thứ. Hiện tại
+                            mình đã làm được khá nhiều việc với Python: Tool, cào data, chatbot...
+                        </p>
                     </div>
                 </div>
-            </div>
-            <div class="card skill-github">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8">
-                            <div class="content">
-                                <p class="content-title">
-                                    Bạch tuộc Github!
-                                </p>
-                                <div class="content-main">
-                                    <p>
-                                        Mình có các kỹ năng làm việc với Git Github cơ bản đủ để làm việc trong môi
-                                        trường
-                                        nhóm, ngoài ra một số dự án của mình cũng được lưu trữ trên đó.
-                                    </p>
-                                </div>
-                                <a class="cta-button" href="#">Xem thêm</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="img-container">
-                                <img src="resources/img/Octocat.png" alt="github-logo">
-                            </div>
-                        </div>
+                <div class="col-sm img-container">
+                    <img class="skill__img" src="resources/img/Octocat.png" alt="">
+                    <p class="skill__mark">1/100</p>
+                    <div class="skill__content">
+                        <p>Mình cũng mới bắt đầu với Github gần đây. Sau những lần cài lại win thì một vài dự án của
+                            mình tự nhiên không cánh mà bay do lưu trên local. Từ đó mình quyết tâm học Github chăm chỉ
+                            với vài thao tác cơ bản đủ để làm việc được trong môi trường nhóm. Hiện tại github của mình
+                            cũng được vài ba dự án ra hồn mang đi khoe cũng khá ngon.</p>
                     </div>
                 </div>
-            </div>
-            <div class="card skill-other">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8">
-                            <div class="content">
-                                <p class="content-title">Copy & Paste</p>
-                                <div class="content-main">
-                                    <p>Mình có thể copy và paste. Copy/paste là một kỹ năng quan trọng mà bất cứ
-                                        Developer nào cũng nên có, họ sử dụng nó hằng ngày, hằng giờ từ fresher đến
-                                        senior, engineer dev. Độ hiệu quả của nó là không thể phủ định.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="img-container">
-                                <img src="resources/img/1280px-Stack_Overflow_logo.svg.png" alt="">
-                            </div>
-                        </div>
+                <div class="col-sm img-container">
+                    <img class="skill__img" src="resources/img/stack.png" alt="">
+                    <p class="skill__mark" id="skill__stackoverflow-mark">100/100</p>
+                    <div class="skill__content">
+                        <p>
+                            Khả năng tìm kiếm và sao chép thượng thừa trên StackOverflow. Thật sự StackOverflow đã hỗ
+                            trợ mình rất nhiều trên con trường này, cảm ơn StackOverflow.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <section class="contact">
+        <p class="main-title title-1">
+            Contact
+        </p>
+        <div class="main">
+            <div class="row">
+                <div class="col-sm">
+                    <a href="https://www.facebook.com/truongaxin">
+                        <div class="img-container">
+                            <img class="contact__social-image" src="resources/img/Facebook_Logo_(2019).png" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm">
+                    <a href="https://truongaxin@gmail.com">
+                        <div class="img-container"><img class="contact__social-image"
+                                src="resources/img/66576-photos-icons-google-computer-gmail-png-image-high-quality.png"
+                                alt=""></div>
+                    </a>
+                </div>
+                <div class="col-sm">
+                    <a href="https://www.facebook.com/truongaxin">
+                        <div class="img-container"><img class="contact__social-image"
+                                src="resources/img/Facebook-icon-1.png" title="Cũng là Facebook nhưng khác hình"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="thanks">
+        <p class="main-title title-1">
+            Thanks
+        </p>
+        <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
+            href="https://unsplash.com/@yancymin?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+            target="_blank" rel="noopener noreferrer"
+            title="Download free do whatever you want high-resolution photos from Yancy Min"><span
+                style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg"
+                    style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white"
+                    viewBox="0 0 32 32">
+                    <title>unsplash-logo</title>
+                    <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
+                </svg></span><span style="display:inline-block;padding:2px 3px">Yancy Min</span></a>
+
+    </section>
     <!-- say thank -->
-    <a href='https://pngtree.com/so/2-5d-notebook'>2-5d-notebook png from pngtree.com</a>
-    <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
-        href="https://unsplash.com/@yancymin?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
-        target="_blank" rel="noopener noreferrer"
-        title="Download free do whatever you want high-resolution photos from Yancy Min"><span
-            style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg"
-                style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white"
-                viewBox="0 0 32 32">
-                <title>unsplash-logo</title>
-                <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
-            </svg></span><span style="display:inline-block;padding:2px 3px">Yancy Min</span></a>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>

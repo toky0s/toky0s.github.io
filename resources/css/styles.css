@@ -16,6 +16,7 @@ body {
 .img-container {
     text-align: center;
     padding: 100px auto;
+    margin-bottom: 10px;
 }
 
 
@@ -101,14 +102,6 @@ section {
     text-align: center;
 }
 
-.card {
-    margin-bottom: 20px !important;
-    padding: 20px 30px;
-    box-shadow: rgb(214, 209, 209) 10px 10px 10px; 
-}
-
-/* section story============================ */
-
 .story {
     background-color: #ffeaa7;
 }
@@ -120,48 +113,27 @@ section {
     align-items: center;
 }
 
-
-.skill .card {
-    border: none;
-    color: white;
-    font-size: 1.25em;
-    padding: 20px 20px;
-}
-
-.skill .skill-python {
-    background-image: linear-gradient(to bottom,#2890b6,#1edbf0);
-}
-
-.skill img {
-    width: 80%;
+.skill__img {
+    height:200px;
     vertical-align: middle;
-    height: auto;
+    /* height: auto; */
     display: inline-block;
 }
 
-.skill .content {
-    margin-left: 20px;
+.skill__mark {
+    position: relative;
+    font-family: 'Amatic SC', cursive;
+    font-size: 350%;
 }
 
-.skill .content-title {
-    font-size: 3em;
-    font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.skill__content {
+    text-align: justify;
 }
 
-.skill .content-main {
-    margin-bottom: 30px;
+.skill__stackoverflow-mark:hover:after {
+    width: 100%;
 }
 
-
-.skill .skill-github {
-    background-image: linear-gradient(to bottom,#420909bb,#1c292bc7);
-}
-
-.skill-github p {
-    margin-bottom: 0rem;
-}
-
-.skill-other {
-    background-image: linear-gradient(to bottom, #1dd1a1, #10ac84);
+.contact__social-image {
+    width: 50%;
 }
