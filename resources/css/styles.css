@@ -97,10 +97,6 @@ section {
     margin: 0 auto;
 }
 
-.main-title {
-    text-align: center;
-}
-
 .story .main {
     display: flex;
     justify-content: center;
@@ -135,10 +131,10 @@ section {
 }
 
 .contact__gmail {
-    text-align: center;
     display: block;
     font-family: 'Satisfy', cursive;
-    font-size: 200%;
+    font-size: 1.7rem;
+    margin: 0 auto;
 }
 
 .thanks__main-title {
@@ -146,7 +142,15 @@ section {
     padding-bottom: 20px;
 }
 
+.thanks .main {
+    max-width: 500px;
+}
+
 .thanks__learn-more {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 200px;
     background-color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -160,7 +164,25 @@ section {
     color: white;
 }
 
+.thanks__content-img img {
+    max-width: 60%;
+}
+
+.thanks__content-text {
+    text-align: justify;
+    font-family: 'Mali', cursive;
+}
+
 
 footer {
-    height: 120px;
+    height: 60px;
+}
+
+.footer__copyright-text {
+    display: block;
+    font-family: 'Spartan';
+    font-size: 1.5em;
+    padding: 12px;
+    text-align: center;
+    margin: 0;
 }
