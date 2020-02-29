@@ -22,7 +22,8 @@
 
 .title-1 {
     font-family: 'Amatic SC', cursive;
-    font-size: 1000%;
+    font-size: calc(100px + (26 - 14) * ((100vw - 300px) / (1200 - 300)));
+    text-align: center;
 }
 
 /* note============================== */
