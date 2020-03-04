@@ -36,9 +36,7 @@
         .img-container {
             text-align: center;
             padding: 100px auto;
-            margin-bottom: 10px;
         }
-
 
         ol,
         ul {
@@ -59,7 +57,6 @@
 
         header {
             background-image: url("resources/img/commit-github.jpg");
-
             background-size: cover;
             background-repeat: no-repeat;
             height: 400px;
@@ -216,22 +213,21 @@
 <body>
     <header>
         <nav class="navigation-bar bg-mangeta-purple" style="background-color: #004D40;">
-            <a class="navigation-bar__nav-link" href="#">Story</a>
-            <a class="navigation-bar__nav-link" href="#">Skill</a>
-            <a class="navigation-bar__nav-link" href="#">Contact</a>
+            <a class="navigation-bar__nav-link" href="#story">Story</a>
+            <a class="navigation-bar__nav-link" href="#skill">Skill</a>
+            <a class="navigation-bar__nav-link" href="#contact">Contact</a>
+            <a class="navigation-bar__nav-link" href="#thanks">Thanks</a>
         </nav>
-        <div class="row">
-            <div class="profile col-sm">
-                <div class="profile-img">
-                    <img class="round-circle" src="resources/img/axin.jpg" alt="Profile Image">
-                </div>
-                <div class="profile-name">
-                    <h1>truong a xin</h1>
-                </div>
+        <div class="profile">
+            <div class="profile-img">
+                <img class="round-circle" src="resources/img/axin.jpg" alt="Profile Image">
+            </div>
+            <div class="profile-name">
+                <h1>truong a xin</h1>
             </div>
         </div>
     </header>
-    <section class="story bg-casandora-yellow" style="background-color: #00695C;">
+    <section class="story" id="story" style="background-color: #00695C;">
         <p class="main-title title-1">Story</p>
         <div class="main">
             <div class="note-paper yellow-note">
@@ -285,7 +281,7 @@
             </div>
         </div>
     </section>
-    <section class="skill" style="background-color: #009688;">
+    <section class="skill" id="skill" style="background-color: #009688;">
         <p class="main-title title-1">Skill</p>
         <div class="flex-container">
             <div class="card">
@@ -330,7 +326,7 @@
 
     </section>
 
-    <section class="contact" style="background-color: #00897B;">
+    <section class="contact" id="contact" style="background-color: #00897B;">
         <p class="main-title title-1">
             Contact
         </p>
@@ -359,7 +355,7 @@
             </div>
         </div>
     </section>
-    <section class="thanks bg-jade-dust" style="background-color: #4DB6AC;">
+    <section class="thanks" id="thanks" style="background-color: #4DB6AC;">
         <p class="title-1">
             Thanks
         </p>
