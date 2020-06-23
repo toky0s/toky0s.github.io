@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Sơ yếu lí lịch của Trương A Xin. Kỹ năng chiến trường và nhiều thứ khác.">
     <meta name="theme-color" content="#00796B">
-    <title>truong a xin</title>
+    <title>@truong4xin</title>
     <link rel="icon" href="resources/img/axin.jpg">
     <link rel="apple-touch-icon" href="resources/img/axin.jpg">
     <link rel="stylesheet" href="resources/fontawesome-free-5.12.0-web/css/all.css">
@@ -33,9 +33,15 @@
             overflow-y: scroll;
         }
 
-        .img-container {
-            text-align: center;
-            padding: 100px auto;
+        img {
+            width: 140px;
+            height: auto;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
         }
 
         ol,
@@ -52,344 +58,65 @@
             padding: 0;
             margin: 0;
         }
-
-        /* header==================================== */
-
-        header {
-            background-image: url("resources/img/commit-github.jpg");
-            background-size: cover;
-            background-repeat: no-repeat;
-            height: 400px;
-        }
-
-        .navigation-bar__nav-link {
-            display: inline-block;
-            padding: 10px 20px;
-            color: #ffffff;
-            font-size: 125%;
-            transition: all .3s;
-            text-decoration: none;
-        }
-
-        .navigation-bar__nav-link:active,
-        .navigation-bar__nav-link:hover {
-            background-color: #8E24AA;
-            color: turquoise;
-        }
-
-        .profile-img img {
-            width: 250px;
-            border-radius: 50%;
-            border: aqua 3px solid;
-            margin: 10px auto 5px !important;
-            display: block;
-            transform: translateY(50px);
-        }
-
-        .profile-name {
-            text-align: center;
-            background-color: #26A69A;
-            width: 290px;
-            height: 55px;
-            margin: 0 auto;
-            transform: translateY(60px);
-            padding: 10px;
-            font-family: 'Spartan', sans-serif;
-        }
-
-        .profile-name h1 {
-            color: white;
-        }
-
-        /* section ================================= */
-
-        section {
-            padding: 35px 50px;
-            background-color: rgb(240, 233, 233);
-        }
-
-        .story .main {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            align-items: center;
-        }
-
-        .flex-container {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-
-        .card {
-            width: 400px;
-            padding: 20px;
-        }
-
-        .skill__img {
-            height: 200px;
-            vertical-align: middle;
-            display: inline-block;
-        }
-
-        .skill__mark {
-            text-align: center;
-            font-family: 'Amatic SC', cursive;
-            font-size: 350%;
-        }
-
-        .skill__content {
-            text-align: justify;
-            font-size: 120%;
-            font-family: 'Mali', cursive;
-        }
-
-        .skill__stackoverflow-mark:hover:after {
-            width: 100%;
-        }
-
-        .contact__social-image {
-            width: 50%;
-        }
-
-        .contact__gmail {
-            display: block;
-            font-family: 'Satisfy', cursive;
-            font-size: 1.7rem;
-            margin: 0 auto;
-        }
-
-        .thanks__main-title {
-            text-align: center;
-            padding-bottom: 20px;
-        }
-
-        .thanks__learn-more {
-            display: block;
-            text-align: center;
-            margin: 0 auto;
-            width: 230px;
-            background-color: white;
-            padding: 15px 20px;
-            transition: all .3s;
-            color: #00d2d3;
-            text-decoration: none;
-            font-family: 'Spartan', sans-serif;
-            font-weight: bolder;
-        }
-
-        .thanks__learn-more:hover {
-            text-decoration: none;
-            background-color: #fed330;
-            color: white;
-        }
-
-        .thanks__content-img img {
-            max-width: 60%;
-        }
-
-        .thanks__content-text {
-            text-align: justify;
-            font-family: 'Mali', cursive;
-            padding: 10px;
-        }
-
-
-        footer {
-            height: 60px;
-        }
-
-        .footer__copyright-text {
-            display: block;
-            font-family: 'Spartan';
-            font-size: 1.5em;
-            padding: 12px;
-            text-align: center;
-            padding-top: 17px;
-        }
     </style>
 </head>
 
 <body>
     <header>
-        <nav class="navigation-bar bg-mangeta-purple" style="background-color: #004D40;">
-            <a class="navigation-bar__nav-link" href="#story">Story</a>
-            <a class="navigation-bar__nav-link" href="#skill">Skill</a>
-            <a class="navigation-bar__nav-link" href="#contact">Contact</a>
-            <a class="navigation-bar__nav-link" href="#thanks">Thanks</a>
-        </nav>
-        <div class="profile">
-            <div class="profile-img">
-                <img class="round-circle" src="resources/img/axin.jpg" alt="Profile Image">
-            </div>
-            <div class="profile-name">
-                <h1>truong a xin</h1>
-            </div>
-        </div>
+        <h1>Đây không phải một trang thương mại điện tử</h1>
+        <h2>Nó được tạo ra để đưa bạn về những quá khứ đau buồn với tốc độ load trang thần tốc</h2>
     </header>
-    <section class="story" id="story" style="background-color: #00695C;">
-        <p class="main-title title-1">Story</p>
-        <div class="main">
-            <div class="note-paper yellow-note">
-                <div class="header-note"></div>
-                <div class="body-note">
-                    <div class="title-note">
-                        <p>Một chút thông tin</p>
-                    </div>
-                    <div class="content-note">
-                        <p>Sinh ngày: 15/11/2000 (hay bị nhầm là 20/10/2000).
-                            <br>
-                            Quê mình ở Bình Định.
-                            <br>
-                            Nhà mình nuôi heo, mẹ mình bán bún :)
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="note-paper green-note">
-                <div class="header-note"></div>
-                <div class="body-note">
-                    <div class="title-note">
-                        <p>Vài nét về mình</p>
-                    </div>
-                    <div class="content-note">
-                        <p>
-                            Mình là một người đam mê lập trình. Bắt đầu với Python, mình đã thực hiện dịch tài
-                            liệu
-                            Python
-                            và tạo một vài tool nho nhỏ phục vụ công việc và cuộc sống. Hướng đi hiện tại của
-                            mình là
-                            thành
-                            một Back-end developer.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="note-paper pink-note">
-                <div class="header-note"></div>
-                <div class="body-note">
-                    <div class="title-note">
-                        <p>Hiện tại mình là ai?</p>
-                    </div>
-                    <div class="content-note">
-                        <p>
-                            Hiện tại mình là sinh viên năm 2 Đại học Duy Tân, Đà Nẵng và tất nhiên là ngành CNTT -
-                            Công nghệ phần mềm.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="skill" id="skill" style="background-color: #009688;">
-        <p class="main-title title-1">Skill</p>
+    <section class="author">
         <div class="flex-container">
-            <div class="card">
-                <div class="img-container">
-                    <img class="skill__img" src="resources/img/logoPython.png" alt="">
-                </div>
-                <p class="skill__mark">1/100</p>
-                <div class="skill__content">
-                    <p>
-                        Mình bắt đầu khám phá lập trình từ năm lớp 10, và tự học Python từ năm lớp 11. Thật sự việc
-                        tự học đã cho mình nhiều kinh nghiệm quý báu cũng như rèn luyện cho mình nhiều thứ. Hiện tại
-                        mình đã làm được khá nhiều việc với Python: Tool, cào data, chatbot...
-                    </p>
-                </div>
+            <div class="author__img-container">
+                <img id="profile-img" src="resources/img/axin.jpg" alt="" srcset="">
             </div>
-            <div class="card">
-                <div class="img-container">
-                    <img class="skill__img" src="resources/img/Octocat.png" alt="">
-                </div>
-                <p class="skill__mark">1/100</p>
-                <div class="skill__content">
-                    <p>Mình cũng mới bắt đầu với Github gần đây. Sau những lần cài lại win thì một vài dự án của
-                        mình tự nhiên không cánh mà bay do lưu trên local. Từ đó mình quyết tâm học Github chăm chỉ
-                        với vài thao tác cơ bản đủ để làm việc được trong môi trường nhóm. Hiện tại github của mình
-                        cũng được vài ba dự án ra hồn mang đi khoe cũng khá ngon.</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="img-container">
-                    <img class="skill__img" src="resources/img/stack.png" alt="stackoverflow">
-
-                </div>
-                <p class="skill__mark" id="skill__stackoverflow-mark">100/100</p>
-                <div class="skill__content">
-                    <p>
-                        Khả năng tìm kiếm và sao chép thượng thừa trên StackOverflow. Thật sự StackOverflow đã hỗ
-                        trợ mình rất nhiều trên con trường này, cảm ơn StackOverflow.
-                    </p>
-                </div>
+            <div class="author__info">
+                <p>Trương A Xin: Thằng viết ra trang này!</p>
+                <p>Không rõ ngày tháng năm sinh, nhưng bạn có thể follow nó <a
+                        href="https://www.facebook.com/truongaxin" target="blank">tại đây</a></p>
+                <a>Don't click here</a>
             </div>
         </div>
 
     </section>
-
-    <section class="contact" id="contact" style="background-color: #00897B;">
-        <p class="main-title title-1">
-            Contact
-        </p>
-        <div class="main">
-            <div class="flex-container">
-                <div class="card">
-                    <a rel="noopener" href="https://www.facebook.com/truongaxin" target="_blank">
-                        <div class="img-container">
-                            <img class="contact__social-image" src="resources/img/Facebook_Logo_(2019).png"
-                                alt="logo-facebook">
-                        </div>
-                    </a>
-                </div>
-                <div class="card">
-                    <div class="img-container"><img class="contact__social-image"
-                            src="resources/img/66576-photos-icons-google-computer-gmail-png-image-high-quality.png"
-                            title="truongaxin123@gmail.com"></div>
-
-                </div>
-                <div class="card">
-                    <a rel="noopener" href="https://www.facebook.com/truongaxin" target="_blank">
-                        <div class="img-container"><img class="contact__social-image"
-                                src="resources/img/Facebook-icon-1.png" title="Cũng là Facebook nhưng khác hình"></div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="thanks" id="thanks" style="background-color: #4DB6AC;">
-        <p class="title-1">
-            Thanks
-        </p>
+    <section class="info">
+        <p class="header">Chúng tôi bán mọi thứ</p>
         <div class="flex-container">
-            <div class="card">
-                <a rel="noopener" href="https://www.howkteam.com" target="_blank">
-                    <div class="img-container">
-                        <img src="resources/img/kteam.png" alt="" srcset=""
-                            title="Một thế giới với những khóa học miễn phí">
-                    </div>
-                </a>
-                <div class="thanks__content-text">
-                    <p>Thật may mắn khi trên con đường lập trình của mỗi người có một cộng đồng đi cùng và
-                        sát
-                        cánh
-                        bên bạn nhưng lúc có bug. Anh Long, chị Quỳnh, anh Lê Bảo Châu, anh Minh Sự bên
-                        Kteam đã
-                        góp
-                        1 phần nào đó tạo nên một Xin của ngày hôm nay. Cảm ơn các anh chị, toàn bộ team và
-                        cộng
-                        đồng.</p>
-
-                </div>
-                <a rel="noreferrer" href="https://www.facebook.com/groups/howkteam/" class="thanks__learn-more"
-                    target="_blank">See more</a>
-                <a rel="noreferrer" href="https://www.howkteam.vn/donate" class="thanks__learn-more"
-                    target="_blank">Donate</a>
+            <div class="item">
+                <div class="item__title">Một cuốn sổ tay</div>
+                <div class="item__img">Ảnh</div>
+                <div class="item__info">Thông tin cuốn sổ tay</div>
+                <div class="item__buy-button">mua ngay</div>
+            </div>
+            <div class="item">
+                <div class="item__title">Một cái cặp</div>
+                <div class="item__img">Ảnh</div>
+                <div class="item__info">Thông tin cái cặp</div>
+                <div class="item__buy-button">mua ngay</div>
+            </div>
+            <div class="item">
+                <div class="item__title">Cái laptop</div>
+                <div class="item__img">Ảnh</div>
+                <div class="item__info">Thông tin cái laptop</div>
+                <div class="item__buy-button">mua ngay</div>
             </div>
         </div>
     </section>
-    <footer style="background-color: #009688;">
-        <p class="footer__copyright-text">truongaxin © 2020</p>
+    <section class="timeline">
+        <p>Đây mới là phần chính</p>
+        <div class="event">
+            <div class="event__info">
+                <p>Tên sự kiện, thời gian diễn ra</p>
+            </div>
+            <div class="event__content">
+                <p>Trong này chứa nội dung của từng cái</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="copyright">Bản quyền thuộc về Xin và những người bạn.</div>
     </footer>
-    <!-- say thank -->
 </body>
 
 </html>

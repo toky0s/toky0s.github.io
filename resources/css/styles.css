@@ -147,7 +147,7 @@ section {
 }
 
 .thanks__learn-more {
-    display: block;
+    display: inline-block;
     text-align: center;
     margin: 0 auto;
     width: 200px;
