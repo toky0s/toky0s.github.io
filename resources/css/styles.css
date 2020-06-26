@@ -5,34 +5,66 @@
     border: 0;
 }
 
+body {
+    background-color: #ecf0f1;
+}
+
 header h1 {
     text-align: center;
 }
 
 header h2 {
     color: #57606f;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 10px 20px;
 }
 
 .item {
-    border: 2px solid black;
     margin: 10px;
     width: 30%;
-    max-width: 300px;
+    max-width: 280px;
+    min-width: 250px;
+    background-color: #fff;
 }
 
-.item__main {
-    height: 300px;
+.item__title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: #1e272e;
+    color: white;
+    height: 45px;
+}
+
+.item__title p {
+    padding-top: 10px;
 }
 
 .item__img {
     height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10px;
 }
 
+.item__img img {
+    width: ;
+}
 
-.item__button {
-    position: relative;
-    margin-bottom: 10px;
-    max-height: 10%;
+.item__info {
+    padding: 10px 10px 10px;
+    border-top: 1px solid black;
+}
+
+.item__info .price {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.item__info .bio {
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 15px;
 }
 
 .item__buy-button {
@@ -44,4 +76,53 @@ header h2 {
     border: 1px solid black;
     width: 150px;
     height: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+header h1 {
+    font-family: 'Bungee Outline', cursive;
+    font-size: 60px;
+}
+
+img {
+    width: 140px;
+    height: auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+ol,
+ul {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+ul li p {
+    margin-bottom: 0;
+}
+
+.container {
+    padding: 0;
+    margin: 0;
 }
