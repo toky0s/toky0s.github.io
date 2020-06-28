@@ -248,11 +248,70 @@ section {
     background-color: #000000;
 }
 
-
 .thumbnail-container::-webkit-scrollbar-corner {
     display: none;
     height: 0px;
     width: 0px;
 }
 
+.sellpast__flexcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
 
+.sellpast__flexcontainer .main-img {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.sellpast__flexcontainer img {
+    width: 400px;
+}
+
+.sellpast-info {
+    padding: 100px 20px 0 20px;
+    border: #000000 1px solid;
+    width: 450px;
+}
+
+.sellpast-info__title {
+    font-family: "Montserrat", "sans-serif";
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.sellpast-info__content {
+    font-family: "Montserrat", "sans-serif";
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.sellpast__buy-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sellpast__buy-button a{
+    text-decoration: none;
+    color: black;
+    width: 150px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: 1px solid black;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-size: 15px;
+    transition: all 0.3s;
+}
+
+.sellpast__buy-button a:hover {
+    background-color: black;
+    color: white;
+}
