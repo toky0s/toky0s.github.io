@@ -14,13 +14,6 @@ img {
     height: auto;
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
 header {
     height: 100vh;
     background-image: url("/resources/img/sarah-dorweiler-9Z1KRIfpBTM-unsplash.jpg");
@@ -43,7 +36,7 @@ header {
 }
 
 .header__layer h1 {
-    font-size: 60px;
+    font-size: 350%;
     font-weight: 300;
 }
 
@@ -111,14 +104,15 @@ section {
     width: 95%;
     margin: 0 auto;
     max-width: 77%;
+    margin: 0 auto 15px;
+    line-height: 40px;
 }
 
-.sale__title p {
-    text-align: left;
-}
 
-.sale__title p span {
-    float: right;
+.sale__flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .item {
@@ -199,7 +193,6 @@ section {
 
 .thumbnail__title {
     text-align: center;
-    min-width: 600px;
     width: 50%;
     margin: 0 auto 50px;
 }
@@ -220,14 +213,33 @@ section {
 }
 
 .thumbnail-container {
+    overflow-x: scroll;
     display: flex;
     flex-direction: row;
-    overflow-x: scroll;
-    white-space: nowrap;
+    flex-wrap: nowrap;
+}
+
+.thumbnail-container .img-container {
+    min-width: 300px;
+    height: 300px;
+    width: 300px;
+    margin: 0 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
 }
 
 .thumbnail-container::-webkit-scrollbar {
     background-color: #fff;
+}
+
+.thumbnail-container::-webkit-scrollbar:start {
+    height: 50px; width:30%;
+}
+
+.thumbnail-container::-webkit-scrollbar:end {
+    height: 50px; width:30%;
 }
 
 .thumbnail-container::-webkit-scrollbar-thumb {
@@ -243,13 +255,4 @@ section {
     width: 0px;
 }
 
-.thumbnail-container .img-container {
-    min-width: 20%;
-    height: 300px;
-    width: 300px;
-    margin: 0 10px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: inline-block;
-}
+
