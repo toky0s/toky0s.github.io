@@ -315,3 +315,47 @@ section {
     background-color: black;
     color: white;
 }
+
+.hitachi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hitachi__title-img {
+    text-align: center;
+    max-width: 400px;;
+}
+
+.hitachi__title-img img {
+    max-width: 900px;
+    width: 100%;
+}
+
+.hitachi__status {
+    width: 500px;
+}
+
+footer {
+    clear: both;
+    margin-top: 37px;
+}
+
+footer .copyright {
+    background-color: black;
+    height: 100px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 45px
+}
+
+.copyright__line {
+    text-decoration: line-through;
+    transition: 0.25;
+}
+
+.copyright__line:hover {
+    text-decoration: none;
+}
